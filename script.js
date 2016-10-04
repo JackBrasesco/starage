@@ -1,4 +1,4 @@
-var input = $("#value-input")
+var turfinput = $("#value-input")
 
 input.keydown(function(e) {	
   if (e.keyCode == "13") {
@@ -9,6 +9,6 @@ input.keydown(function(e) {
   }
 })
 
-onNewValue("davidsVariable", function(value) {
+onNewValue("jacksVariable", function(value) {
   $("#value-output").html(value)
 })
