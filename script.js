@@ -1,11 +1,11 @@
-var turfinput = $("#value-input")
+var turfinput = $("#turfwar")
 
-input.keydown(function(e) {	
+turfinput.keydown(function(e) {	
   if (e.keyCode == "13") {
     console.log("Hi")
-    var valueToSave = input.val();
+    var valueToSave = turfinput.val();
     storeValue("jacksVariable", valueToSave);
-    input.val("")
+    turfinput.val("")
   }
 })
 
