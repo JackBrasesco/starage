@@ -1,10 +1,10 @@
 var input = $("#value-input")
 
-input.keydwn(function(e) {	
+input.keydown(function(e) {	
   if (e.keyCode == "13") {
-    console.log("Hi"
+    console.log("Hi")
     var valueToSave = input.val();
-    storeValue("davidsVariable", value);
+    storeValue("davidsVariable", input);
     input.val("")
   }
 })
